@@ -1,0 +1,221 @@
+{
+	"name": "ken",
+	"texture": "ken/ken.png",
+	"thumbnail": "ken/ken_thumb_small.png",
+	"thumbnail_big": "ken/ken_thumb_big.png",
+	"animations": [
+		{
+			"name":"standing_idle",
+			"duration": 0.125,
+			"playType":1,
+			"action":false,
+			"frames":[
+				{"x":9, "y":18, "width":35, "height":79},
+				{"x":57, "y":19, "width":36, "height":78},
+				{"x":108, "y":18, "width":35, "height":79},
+				{"x":157, "y":17, "width":35, "height":80}
+			]
+		},
+		{
+			"name":"walking",
+			"duration": 0.16,
+			"playType":1,
+			"action":false,
+			"frames":[
+				{"x":212, "y":24, "width":30, "height":73},
+				{"x":254, "y":19, "width":37, "height":79},
+				{"x":307, "y":17, "width":38, "height":80},
+				{"x":358, "y":19, "width":32, "height":78},
+				{"x":407, "y":19, "width":31, "height":79}
+			]
+		},
+		{
+			"name":"in_air",
+			"duration": 0.16,
+			"playType":0,
+			"action":false,
+			"frames":[
+				{"x":459, "y":24, "width":30, "height":73},
+				{"x":503, "y":9, "width":33, "height":90},
+				{"x":545, "y":17, "width":30, "height":78},
+				{"x":582, "y":19, "width":31, "height":67},
+				{"x":619, "y":17, "width":30, "height":78},
+				{"x":656, "y":9, "width":33, "height":90}
+			]
+		},
+		{
+			"name":"crouching",
+			"duration": 0.16,
+			"playType":0,
+			"action":false,
+			"frames":[
+				{"x":1167, "y":43, "width":35, "height":54}
+			]
+		},
+		{
+			"name":"crouching_punch",
+			"duration": 0.14,
+			"playType":0,
+			"action":true,
+			"frames":[
+				{"x":16, "y":420, "width":40, "height":53},
+				{"x":68, "y":420, "width":55, "height":53},
+				{"x":134, "y":420, "width":40, "height":53}
+			]
+		},
+		{
+			"name":"standing_left_punch",
+			"duration": 0.2,
+			"playType":0,
+			"action":true,
+			"frames":[
+				{"x":7, "y":134, "width":37, "height":79},
+				{"x":56, "y":134, "width":53, "height":79},
+				{"x":121, "y":134, "width":37, "height":79}
+			]
+		},
+		{
+			"name":"standing_right_punch",
+			"duration": 0.15,
+			"playType":0,
+			"action":true,
+			"frames":[
+				{"x":174, "y":134, "width":37, "height":79},
+				{"x":225, "y":130, "width":44, "height":82},
+				{"x":284, "y":130, "width":62, "height":82},
+				{"x":360, "y":130, "width":44, "height":82},
+				{"x":415, "y":134, "width":37, "height":79}
+			]
+		},
+		{
+			"name":"standing_kick",
+			"duration": 0.14,
+			"playType":0,
+			"action":true,
+			"frames":[
+				{"x":6, "y":261, "width":39, "height":81},
+				{"x":62, "y":261, "width":67, "height":83},
+				{"x":135, "y":261, "width":39, "height":81}
+			]
+		},
+		{
+			"name":"crouching_kick",
+			"duration": 0.14,
+			"playType":0,
+			"action":true,
+			"frames":[
+				{"x":668, "y":418, "width":41, "height":55},
+				{"x":721, "y":418, "width":64, "height":56},
+				{"x":798, "y":418, "width":41, "height":55}
+			]
+		},
+		{
+			"name":"body_hit",
+			"duration": 0.14,
+			"playType":0,
+			"action":false,
+			"frames":[
+				{"x":5, "y":785, "width":39, "height":73},
+				{"x":53, "y":789, "width":41, "height":68},
+				{"x":106, "y":795, "width":44, "height":63},
+				{"x":165, "y":779, "width":39, "height":78}
+			]
+		},
+		{
+			"name":"crouch_hit",
+			"duration": 0.14,
+			"playType":0,
+			"action":false,
+			"frames":[
+				{"x":449, "y":798, "width":41, "height":62}
+			]
+		},
+		{
+			"name":"face_hit",
+			"duration": 0.14,
+			"playType":0,
+			"action":false,
+			"frames":[
+				{"x":217, "y":782, "width":39, "height":77},
+				{"x":270, "y":783, "width":43, "height":75},
+				{"x":326, "y":777, "width":50, "height":81},
+				{"x":393, "y":779, "width":39, "height":79}
+			]
+		},
+		{
+			"name":"in_air_kick",
+			"duration": 0.14,
+			"playType":0,
+			"action":true,
+			"frames":[
+				{"x":144, "y":532, "width":45, "height":82},
+				{"x":198, "y":540, "width":31, "height":67}
+			]
+		},
+		{
+			"name":"in_air_punch",
+			"duration": 0.14,
+			"playType":0,
+			"action":true,
+			"frames":[
+				{"x":2, "y":547, "width":40, "height":67},
+				{"x":47, "y":556, "width":51, "height":51},
+				{"x":104, "y":547, "width":31, "height":67}
+			]
+		},
+		{
+			"name":"victory",
+			"duration": 0.14,
+			"playType":0,
+			"action":false,
+			"frames":[
+				{"x":13, "y":911, "width":30, "height":73},
+				{"x":63, "y":899, "width":33, "height":85},
+				{"x":114, "y":877, "width":33, "height":107}
+			]
+		},
+		{
+			"name":"death",
+			"duration": 0.14,
+			"playType":0,
+			"action":false,
+			"frames":[
+				{"x":1165, "y":806, "width":45, "height":59},
+				{"x":1218, "y":813, "width":72, "height":42},
+				{"x":1294, "y":830, "width":75, "height":27},
+				{"x":1373, "y":813, "width":72, "height":42},
+				{"x":1449, "y":830, "width":75, "height":27}
+			]
+		},
+		{
+			"name":"standing_shield",
+			"duration": 0.1,
+			"playType":0,
+			"action":false,
+			"frames":[
+				{"x":1215, "y":16, "width":37, "height":81}
+			]
+		},
+		{
+			"name":"crouching_shield",
+			"duration": 0.14,
+			"playType":0,
+			"action":false,
+			"frames":[
+				{"x":1264, "y":38, "width":35, "height":59}
+			]
+		},
+		{
+			"name":"standing_stun",
+			"duration": 0.14,
+			"playType":0,
+			"action":false,
+			"frames":[
+				{"x":1009, "y":781, "width":45, "height":76},
+				{"x":1065, "y":779, "width":38, "height":78},
+				{"x":1112, "y":779, "width":39, "height":78}
+			]
+		}
+	]
+
+}

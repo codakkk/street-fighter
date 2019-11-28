@@ -181,8 +181,8 @@ public class CharacterScreen extends IScreen {
 
             yOffset = 15;
 
-            font.draw(spriteBatch, "Inoltre, è possibile effettuare delle ", xOffset, HEIGHT - 140 - yOffset);
-            font.draw(spriteBatch, "combo mentre si è in volo.", xOffset, HEIGHT - 148 - yOffset);
+            font.draw(spriteBatch, "Inoltre, Ã¨ possibile effettuare delle ", xOffset, HEIGHT - 140 - yOffset);
+            font.draw(spriteBatch, "combo mentre si Ã¨ in volo.", xOffset, HEIGHT - 148 - yOffset);
             fontx2.draw(spriteBatch, "Esempi: ", xOffset, HEIGHT - 164 - yOffset);
             font.draw(spriteBatch, "Pungo in volo: Salto + Pugno", xOffset, HEIGHT - 178 - yOffset);
             font.draw(spriteBatch, "Calcio in volo: Salto + Calcio", xOffset, HEIGHT - 188 - yOffset);
@@ -203,7 +203,7 @@ public class CharacterScreen extends IScreen {
                 }
             }
             spriteBatch.draw(logo, CharacterScreen.WIDTH / 2 - logo.getWidth() / 4, CharacterScreen.HEIGHT / 3 + logo.getHeight() / 4 + 12, logo.getWidth() / 2, logo.getHeight() / 2);
-            String string = "Created  by  Ciro  Carandente   4I";
+            String string = "Created  by  Ciro   4I";
             font.draw(spriteBatch, string, CharacterScreen.WIDTH - (string.length() * 14) / 2, CharacterScreen.HEIGHT - 12);//16
             string = "I.S.I.S  Guido  Tassinari";
             font.draw(spriteBatch, string, CharacterScreen.WIDTH - (string.length() * 16) / 2, CharacterScreen.HEIGHT - 4);
